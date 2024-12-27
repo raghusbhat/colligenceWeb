@@ -2,6 +2,8 @@
 
 ## Installation
 
+#### This project is built with Vite, React, TailwindCSS, and TypeScript.
+
 To get started with this project, follow these steps:
 
 1. Clone the repository:
