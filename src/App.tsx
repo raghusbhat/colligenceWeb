@@ -14,7 +14,7 @@ const App = (): JSX.Element => {
     <Router>
       <div className="max-w-7xl mx-auto">
         <Navbar />
-        <main className="container mx-auto p-4">
+        <main className=" p-4 mt-12 md:mt-16">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
