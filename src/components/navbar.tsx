@@ -77,25 +77,25 @@ const Navbar = () => {
             className="absolute top-12 pt-4 left-0 w-full !h-screen bg-[#1A1A1A] z-10 flex flex-col gap-4 overflow-hidden"
           >
             <Link to="/" onClick={() => setIsMobileMenuOpen(false)}>
-              <Button variant="ghost" aria-label="Home">
+              <Button variant="default" aria-label="Home">
                 Home
               </Button>
             </Link>
             <hr className="h-px mx-2 bg-white/10 border-0"/>
             <Link to="/about" onClick={() => setIsMobileMenuOpen(false)}>
-              <Button variant="ghost" aria-label="About">
+              <Button variant="default" aria-label="About">
                 About
               </Button>
             </Link>
             <hr className="h-px mx-2 bg-white/10 border-0 "/>
             <Link to="/careers" onClick={() => setIsMobileMenuOpen(false)}>
-              <Button variant="ghost" aria-label="Careers">
+              <Button variant="default" aria-label="Careers">
                 Careers
               </Button>
             </Link>
             <hr className="h-px mx-2 bg-white/10 border-0"/>
             <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-              <Button variant="ghost" aria-label="Contact">
+              <Button variant="default" aria-label="Contact">
                 Contact
               </Button>
             </Link>

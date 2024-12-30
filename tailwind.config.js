@@ -4,6 +4,17 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Ubuntu', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+        'ubuntu-condensed': ['Ubuntu Condensed', 'sans-serif'],
+      },
+      fontWeight: {
+        boldest: '900',
+        extraBold: '800',
+        bold: '700',
+        semiBold: '600',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
